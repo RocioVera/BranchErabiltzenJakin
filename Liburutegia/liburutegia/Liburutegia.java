@@ -14,6 +14,8 @@ public class Liburutegia {
 		this.liburua = liburua;
 	}
 
+	
+	
 	//get
 	public String getIzena() {
 		return izena;
