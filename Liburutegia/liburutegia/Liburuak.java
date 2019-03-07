@@ -1,16 +1,5 @@
 package liburutegia;
 
-
-
-
-
-
-//ander fernandez
-
-
-
-
-
 public class Liburuak {
 	private String izenburua, ISBN;
 	private int orrialdeKopurua;
