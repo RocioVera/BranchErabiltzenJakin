@@ -4,14 +4,14 @@ import java.util.ArrayList;
 public class Liburutegia {
 	private String izena, helbidea;
 	private int ikasKop;
-	private ArrayList <Liburuak> liburua = new ArrayList<Liburuak>(5);
+	private ArrayList <Liburuak> liburutegi = new ArrayList<Liburuak>(5);
 
 	//konstruktorea
-	public Liburutegia(String izena, String helbidea, int ikasKop, ArrayList<Liburuak> liburua) {
+	public Liburutegia(String izena, String helbidea, int ikasKop, ArrayList<Liburuak> liburutegi) {
 		this.izena = izena;
 		this.helbidea = helbidea;
 		this.ikasKop = ikasKop;
-		this.liburua = liburua;
+		this.liburutegi = liburutegi;
 	}
 
 	//get
@@ -25,8 +25,8 @@ public class Liburutegia {
 	public int getIkasKop() {
 		return ikasKop;
 	}
-	public ArrayList<Liburuak> getLiburua() {
-		return liburua;
+	public ArrayList<Liburuak> getLiburutegi() {
+		return liburutegi;
 	}
 	
 	//set
@@ -40,14 +40,19 @@ public class Liburutegia {
 		this.ikasKop = ikasKop;
 	}
 	public void setLiburua(ArrayList<Liburuak> liburua) {
-		this.liburua = liburua;
+		this.liburutegi = liburua;
 	}
 	 
 	//toString
 	@Override
 	public String toString() {
 		return "Liburutegia [izena=" + izena + ", helbidea=" + helbidea + ", ikasKop=" + ikasKop + ", liburua="
-				+ liburua + "]";
+				+ liburutegi + "]";
+	}
+	
+	public void liburuakGehitu(Liburuak liburu) {
+		
+		liburutegi.add(liburu);
 	}
 	
 	
