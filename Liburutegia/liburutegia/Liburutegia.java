@@ -14,8 +14,6 @@ public class Liburutegia {
 		this.liburua = liburua;
 	}
 
-	
-	
 	//get
 	public String getIzena() {
 		return izena;
@@ -52,4 +50,9 @@ public class Liburutegia {
 				+ liburua + "]";
 	}
 	
+	
+	public void liburuakEzabatu(Liburuak liburu) {
+		liburua.remove(liburu);
+	}
+
 }
