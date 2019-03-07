@@ -42,7 +42,7 @@ public class Liburutegia {
 	public void setLiburua(ArrayList<Liburuak> liburua) {
 		this.liburua = liburua;
 	}
-	
+	 
 	//toString
 	@Override
 	public String toString() {
