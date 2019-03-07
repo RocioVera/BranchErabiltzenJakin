@@ -10,7 +10,7 @@ public class Liburuak {
 		this.ISBN = ISBN;
 		this.orrialdeKopurua = orrialdeKopurua;
 	}
-	
+	 
 	//get
 	public String getIzenburua() {
 		return izenburua;
