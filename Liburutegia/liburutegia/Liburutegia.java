@@ -51,7 +51,6 @@ public class Liburutegia {
 	}
 	
 	public void liburuakGehitu(Liburuak liburu) {
-		
 		liburutegi.add(liburu);
 	}
 	
