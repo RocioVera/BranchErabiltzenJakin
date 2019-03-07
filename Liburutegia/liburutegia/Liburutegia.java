@@ -57,7 +57,7 @@ public class Liburutegia {
 	
 	
 	public void liburuakEzabatu(Liburuak liburu) {
-		liburua.remove(liburu);
+		liburutegi.remove(liburu);
 	}
 
 }
