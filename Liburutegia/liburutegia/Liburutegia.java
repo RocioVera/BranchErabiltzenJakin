@@ -50,6 +50,9 @@ public class Liburutegia {
 				+ liburutegi + "]";
 	}
 	
-	
+	public void liburuakGehitu(Liburuak liburu) {
+		
+		liburutegi.add(liburu);
+	}
 	
 }
