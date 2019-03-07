@@ -4,6 +4,9 @@ public class Liburuak {
 	private String izenburua, ISBN;
 	private int orrialdeKopurua;
 	
+	
+	
+	
 	//konstruktorea
 	public Liburuak(String izenburua, String ISBN, int orrialdeKopurua) {
 		this.izenburua = izenburua;
